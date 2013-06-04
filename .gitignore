@@ -6,3 +6,8 @@
 *.csproj
 *.unityproj
 *.sln
+*.sublime-project
+*.sublime-workspace
+*.DS_Store
+*.pidb
+*.userprefs
