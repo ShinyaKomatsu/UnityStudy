@@ -58,7 +58,7 @@ public class BatchBuild {
         // ビルド
         // シーン、出力ファイル（フォルダ）、ターゲット、オプションを指定
         string errorMsg =
-            BuildPipeline.BuildPlayer(GetScenes(), "test.apk", BuildTarget.Android, opt);
+            BuildPipeline.BuildPlayer(GetScenes(), "result/test.apk", BuildTarget.Android, opt);
         // errorMsgがない場合は成功
         if ( string.IsNullOrEmpty(errorMsg) ) {
             Debug.Log("Build( Android ) Success.");
